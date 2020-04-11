@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -177,22 +181,27 @@ a {
 
 .fa-facebook-f:hover {
     color: skyblue;
+    transform: scale(1.2);
 }
 
 .fa-instagram:hover {
     color: skyblue;
+    transform: scale(1.2);
 }
 
 .fa-github:hover {
     color: skyblue;
+    transform: scale(1.2);
 }
 
 .fa-code:hover {
     color: skyblue;
+    transform: scale(1.2);
 }
 
 .fa-file-signature:hover {
     color: skyblue;
+    transform: scale(1.2);
 }
 
 ul#links {
@@ -277,6 +286,35 @@ ul#links li {
     60% {
         transform: translateY(-15px);
     }
+}
+
+#about {
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-size: 35px;
+    font-family: 'Poppins', san-serif;
+}
+
+.title {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.line {
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.about_image {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    transform: translate(-5%, 10%);
+    border-radius: 300px;
+    border: 5px solid skyblue;
 }
 
 @media only screen and (max-width: 1120px) {

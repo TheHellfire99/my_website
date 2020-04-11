@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <section id="home">
         <div id="particles-js">
 
@@ -60,15 +61,30 @@
             <div class="arrow bounce">
                 <a class="fa fa-arrow-down fa-2x" href="#" style=" color: white;"></a>
             </div>
-
-
-
-
         </div>
+    </section>
 
+    <section id="about">
+        <h1 class="title">About Me</h1>
+        <div class="line"></div>
 
+        <img src="aboutimg.png" class="about_image" width="550" height="550" alt="My Image" />
 
     </section>
+
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-60px";
+            }
+        }
+    </script>
 
     <script src="particles.js"></script>
     <script src="app.js"></script>
