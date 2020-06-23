@@ -338,3 +338,12 @@ ul#links li {
         margin-top: 10px;
     }
 }
+
+.info {
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 50%;
+    font-size: 18px;
+    float: right;
+    text-align: center;
+}
