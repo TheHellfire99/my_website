@@ -291,7 +291,6 @@ ul#links li {
 }
 
 #about {
-    height: 100vh;
     background-color: #f4f4f4;
     font-size: 35px;
     font-family: 'Poppins', san-serif;
@@ -313,25 +312,17 @@ ul#links li {
 }
 
 .about_image {
-    position: relative;
-    top: 10%;
-    left: 5%;
-    transform: translate(-5%, 10%);
     border-radius: 300px;
     border: 5px solid skyblue;
+    margin: 24px;
 }
 
 .info {
-    margin-top: 40px;
-    margin-right: 80px;
-    width: 50%;
+    padding: 24px;
     font-size: 18px;
-    float: right;
-    text-align: center;
 }
 
 #certificates {
-    height: auto;
     background-color: lightgrey;
 }
 
@@ -573,6 +564,10 @@ textarea {
     color: #F2F3EB;
 }
 
+.flex {
+    display: flex;
+}
+
 @media screen and (max-width: 768px) {
     #container {
         margin: 20px auto;
@@ -615,30 +610,18 @@ textarea {
     #logo {
         width: 800px;
     }
-    .about_image {
-        margin: 0%;
-        padding: 0%;
-        width: 800px;
-        height: 800px;
-        position: relative;
-        left: 50%;
-        top: 10%;
-        transform: translate(-50%, 10%);
-    }
-    .info {
-        width: 100%;
-        font-size: 30px;
-        margin-right: 0;
-        padding-top: 60px;
-    }
-    #about {
-        height: 120vh;
-    }
     .grid-container {
         display: inline;
     }
     .grid-container_2 {
         display: inline;
+    }
+    .flex {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .about_image {
+        margin: 0 auto;
     }
 }
 
@@ -646,30 +629,19 @@ textarea {
     #logo {
         width: 500px;
     }
-    .about_image {
-        margin: 0%;
-        padding: 0%;
-        width: 800px;
-        height: 800px;
-        position: relative;
-        left: 50%;
-        top: 10%;
-        transform: translate(-50%, 10%);
-    }
-    .info {
-        width: 100%;
-        font-size: 30px;
-        margin-right: 0;
-        padding-top: 60px;
-    }
-    #about {
-        height: 120vh;
-    }
     .grid-container {
         display: inline;
     }
     .grid-container_2 {
         display: inline;
+    }
+    .flex {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .about_image {
+        margin-top: 10px;
+        margin: 0 auto;
     }
 }
 
@@ -681,29 +653,17 @@ textarea {
         margin-left: 0;
         margin-top: 10px;
     }
-    .about_image {
-        margin: 0%;
-        padding: 0%;
-        width: 800px;
-        height: 800px;
-        position: relative;
-        left: 50%;
-        top: 10%;
-        transform: translate(-50%, 10%);
-    }
-    .info {
-        width: 100%;
-        font-size: 30px;
-        margin-right: 0;
-        padding-top: 60px;
-    }
-    #about {
-        height: 120vh;
-    }
     .grid-container {
         display: inline;
     }
     .grid-container_2 {
         display: inline;
+    }
+    .flex {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .about_image {
+        margin: 0 auto;
     }
 }
