@@ -322,24 +322,21 @@ ul#links li {
     font-size: 18px;
 }
 
-#certificates {
-    background-color: lightgrey;
+.slick-slide img {
+    width: 100%;
 }
 
-.grid-container {
-    display: grid;
-    grid-gap: 20px 220px;
-    grid-template-columns: 200px 100%;
-    padding: 10px;
-    height: 80%;
-    margin: 0 auto;
-    text-align: center;
+.slick-slide {
+    margin: 30px 15px;
 }
 
-.grid-item {
-    padding: 20px;
-    font-size: 30px;
-    margin: 0 auto;
+.slick-dots li button::before,
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+.slick-dots li button:before {
+    font-size: 15px;
 }
 
 #projects {

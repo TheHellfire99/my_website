@@ -6,7 +6,8 @@
     <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://kit.fontawesome.com/bdc59ad6b0.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -100,48 +101,22 @@
         <h1 class="title">Certificates</h1>
         <div class="line"></div>
         <br>
-        <div class="grid-container">
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1V5txn0HoJYtae4pibzcAYXnSWjHo6Y4t/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1jDgxeW3_G3ZFZufn9SMkI5ffUEgVxISY/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/10L8rC3N8lScveZsjhnCO0aUlXqz9ma7Y/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1sWHuQLuB9hmEW0p9FON0mNLBEHFhDqE5/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item">
-                <iframe src="https://drive.google.com/file/d/1UPr2D176AOiyZX7LJOFHN0Gf8ken1giw/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class=" grid-item ">
-                <iframe src="https://drive.google.com/file/d/1Gnx96KkY1C-b-pggHPOWaZGXkxVtvHKJ/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1dofFqgA9zFreH-FtdBFKMBgEShSSuXxr/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/18QpD_3XASV3W5amkowHJnLPKF8LRNNoO/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1aeI0lV1e8uaR8PWKjBkNPj-nKScVc5l9/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1Hrm5hA5I9IagoVdQSfMJR4Gjd3z3W1jF/preview" class="cert" width="540" height="380" style="border: none;"></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1Rx_gVlIBEKI6lpuw2E8Ls_8plnVn-PJp/preview " class="cert" width="540 " height="380 " style="border: none; "></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1jIOKbA1-VTaVdIV_KIq2AZHLfBtS_2oN/preview " class="cert" width="540 " height="380 " style="border: none; "></iframe>
-            </div>
-            <div class="grid-item ">
-                <iframe src="https://drive.google.com/file/d/1oSvhUsV_FDdAg-ELUp5kpZSXl8vZsgH5/preview " class="cert" width="540 " height="380 " style="border: none; "></iframe>
-            </div>
-
+        <div class="slider">
+            <div class="item"><img data-lazy="ass/ml.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/python.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/pyt.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/codein.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/codein2.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/ied.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/solar.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/src.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/3d.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/tinker.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/ux.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/fusion.jpg" class="cert"> </div>
+            <div class="item"><img data-lazy="ass/linux.jpg" class="cert"> </div>
         </div>
+
 
     </section>
 
@@ -338,6 +313,50 @@
 
     <!-- Initialize Firebase -->
     <script src="/__/firebase/init.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(".slider").slick({
+            lazyLoad: 'ondemand',
+            dots: true,
+            infinite: false,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            playback: true,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                }, {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }, {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
+
+
 </body>
 
 </html>
